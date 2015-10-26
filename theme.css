@@ -1,0 +1,151 @@
+html {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  width: 100%;
+  background: url(images/skyline-warm.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-night, #main-section {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.navbar-night {
+    background: transparent;
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+#main-section {
+    color: white;
+    margin-top: 75px;
+}
+
+.main-text {
+        /*background: rgba(0, 0, 0, 0.3);*/
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    color: #E5E5E5;
+}
+
+a:hover {
+    color: white;
+}
+
+.dancingman{
+    margin-bottom: 10px;
+}
+
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/*copied from this website: http://work.smarchal.com/twbscolor/*/
+
+.navbar-default {
+  background-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #cdd0ce;
+}
+.navbar-default .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #cdd0ce;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  color: #cdd0ce;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: black;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #E5E5E5;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover {
+  color: black;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cdd0ce;
+}
+
+@media (max-height: 700px) {
+    body {
+      padding-top: 70px;
+      padding-bottom: 30px;
+      width: 100%;
+      background: url(images/skyline.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+      padding-top: 70px;
+      padding-bottom: 30px;
+      width: 100%;
+      background: url(images/skyline.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+  .navbar-default .navbar-nav {
+    background: black;
+  }
+
+  .navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: white;
+  }
+
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #E5E5E5;
+  }
+
+  /*#main-section {
+      color: white;
+      margin-top: 75px;
+      background: rgba(0, 0, 0, 0.6);
+  }*/
+}
